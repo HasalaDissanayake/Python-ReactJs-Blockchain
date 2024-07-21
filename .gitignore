@@ -1,7 +1,2 @@
-Version 1.0/__pycache__
 Version 1.0/blockchain-env
-Version 1.0/backend/__pycache__
-Version 1.0/backend/blockchain/__pycache__
-Version 1.0/backend/util/__pycache__
-Version 1.0/backend/tests/blockchain/__pycache__
-Version 1.0/backend/tests/util/__pycache__
+**/__pycache__
