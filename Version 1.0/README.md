@@ -1,16 +1,27 @@
 **Activate the virtual environment**
 
 ```
-source blockchain-dev/bin/activate
-```
-
-or
-
-```
-blockchain-dev/bin/activate
+source blockchain-env/bin/activate
 ```
 
 **Install all packages**
 ```
 pip3 install -r requirements.txt
+```
+
+
+**Running a module**
+
+ex: Blockchain module
+
+```
+python3 -m backend.blockchain.blockchain
+```
+
+**Run the tests**
+
+Make sure to activate the virtual environment.
+
+```
+python3 -m pytest backend/tests
 ```
